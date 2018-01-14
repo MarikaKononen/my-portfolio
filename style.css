@@ -1,0 +1,32 @@
+body {
+  margin-top: 60px;
+  margin-left: 60px;
+  margin-right: 60px;
+  background-color: #e6ffcc;
+}
+#jumbotron-main {
+  background-image: url("pictures/Puut.jpg");
+}
+#jumbotron-about {
+  background-color: #e6ccb3;
+  background-size: cover;
+}
+
+#jumbotron-portfolio {
+  background-color: #d6d6c2;
+  background-size: cover;
+}
+
+#jumbotron-contact {
+  background-color: #e6ff99;
+  background-size: cover;
+}
+
+#img-my-picture {
+  width: 150px;
+  height: auto;
+}
+.gap-right {
+  margin-right: 15px; 
+}
+
