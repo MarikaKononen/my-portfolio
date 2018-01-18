@@ -4,9 +4,14 @@ body {
   margin-right: 60px;
   background-color: #e6ffcc;
 }
+h2 {
+  margin-left: 35px;
+}
+
 #jumbotron-main {
   background-image: url("pictures/Puut.jpg");
 }
+
 #jumbotron-about {
   background-color: #e6ccb3;
   background-size: cover;
