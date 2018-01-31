@@ -3,9 +3,14 @@ body {
   margin-left: 60px;
   margin-right: 60px;
   background-color: #e6ffcc;
+position: relative;
 }
 h2 {
   margin-left: 35px;
+  font-family: Handlee;
+}
+p {
+  font-family: Handlee;
 }
 
 #jumbotron-main {
@@ -34,4 +39,10 @@ h2 {
 .gap-right {
   margin-right: 15px; 
 }
+iframe{
+  padding: 15px;	
+}
+
+
+
 
