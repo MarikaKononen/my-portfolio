@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <title>Marika Könönen</title>
@@ -10,33 +10,34 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
     <script src="portfolio.js"></script>
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Handlee|Risque" rel="stylesheet">    
     <link rel="stylesheet" href="style.css" />
+    
   </head>
-
+ 
 
   <body>
-  <nav class="navbar navbar-expand-sm bg-light">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>                        
-        </button>
-        <a class="navbar-brand" href="#">Koodi Elämästäni</a>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
-        <li class="active nav-item"><a class="nav-link" href="#about">About</a></li>
-        <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
-        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-      </ul>
-    </div>
-    </div>
-  </nav>
-  <div class="container-fluid">
-    <div class="jumbotron" id="jumbotron-main">
+   <div class="container-fluid">
+     <nav class="navbar navbar-expand-sm bg-light">   
+       <span class="navbar-brand mb-0 h1">Marika Könönen</span>
+       <button class="navbar-toggler na" type="button" data-toggle="collapse" data-target="#myNavbar" aria-controls="myNavbar" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon navbar-light"></span>
+  
+       </button>
+       
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li class="active nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+     </nav>   
+   </div>
+
+   <div class="container-fluid" >
+   <div class="jumbotron" id="jumbotron-main"> 
       <div class="jumbotron" id="jumbotron-about">
         <div class="row">
           <div class="col-sm-7">
@@ -50,12 +51,36 @@
           </div>
         </div>
       </div>
+
       <div class="jumbotron" id="jumbotron-portfolio">
         <div class="row">
           <div class="col-sm-7">
             <h2 id="portfolio">Portfolio</h2>
           </div>
         </div>
+        <div class="row">
+          <div class="col-sm-4">
+            <p class="text-center">My English blog - Code for My Life</p>
+          </div>
+          <div class="col-sm-4">
+             <a href="http://koodielamastani.fi"><p class="text-center">My Finnish blog - Koodi Elämästäni</p></a> 
+          </div>
+          <div class="col-sm-4">
+            <p class="text-center">CodePen - Responsive webpage [Bootstrap 3]</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4 text-center embed-responsive embed-responsive-4by3">
+            <iframe src="http://codeformylife.com/"></iframe> 
+          </div>
+          <div class="col-sm-4 text-center embed-responsive embed-responsive-4by3">
+            <iframe src="http://koodielamastani.fi/"></iframe>
+          </div>
+          <div class="col-sm-4 text-center embed-responsive embed-responsive-4by3">
+            <iframe src="https://codepen.io/MarikaK/live/NyPPPV/" frameborder="0"></iframe>
+          </div>
+        </div>
+
       </div>
       <div class="jumbotron" id="jumbotron-contact">
         <div class="row">
@@ -64,7 +89,7 @@
           </div>
         </div>
       </div>
-    </div>
+   </div>
    </div>
   </body>
 </html>
