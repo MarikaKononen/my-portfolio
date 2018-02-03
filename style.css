@@ -1,3 +1,5 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
 body {
   margin-top: 60px;
   margin-left: 60px;
@@ -11,6 +13,9 @@ h2 {
 }
 p {
   font-family: Handlee;
+}
+.menu-font{
+ font-family: Handlee;
 }
 
 #jumbotron-main {
@@ -42,7 +47,20 @@ p {
 iframe{
   padding: 15px;	
 }
+ /* Style all font awesome icons */
+.fa {
+    margin-left: 60px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 45%;
+}
 
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
 
 
 
