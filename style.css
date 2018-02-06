@@ -1,11 +1,9 @@
-@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
-
 body {
   margin-top: 60px;
   margin-left: 60px;
   margin-right: 60px;
   background-color: #e6ffcc;
-position: relative;
+  position: relative;
 }
 h2 {
   margin-left: 35px;
@@ -14,7 +12,7 @@ h2 {
 p {
   font-family: Handlee;
 }
-.menu-font{
+.all-font{
  font-family: Handlee;
 }
 
@@ -23,17 +21,17 @@ p {
 }
 
 #jumbotron-about {
-  background-color: #e6ccb3;
+  background-color: #f2ffe6;
   background-size: cover;
 }
 
-#jumbotron-portfolio {
-  background-color: #d6d6c2;
+#jumbotron-portfolio
+  background-color: #ffffe6;
   background-size: cover;
 }
 
 #jumbotron-contact {
-  background-color: #e6ff99;
+  background-color: #fff2e6;
   background-size: cover;
 }
 
@@ -42,25 +40,21 @@ p {
   height: auto;
 }
 .gap-right {
-  margin-right: 15px; 
+  margin-right: 100px; 
 }
-iframe{
-  padding: 15px;	
-}
- /* Style all font awesome icons */
-.fa {
-    margin-left: 60px;
-    font-size: 30px;
-    width: 30px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 45%;
+.lef-padding{
+  padding: 20px;	
 }
 
-/* Add a hover effect if you want */
-.fa:hover {
-    opacity: 0.7;
+#col-contact{
+  margin-left: 30px;
+  margin-top: 15px;
 }
+.bottom-padding{
+  padding-bottom: 20px;
+}
+
+
 
 
 
