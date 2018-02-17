@@ -13,8 +13,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Handlee|Risque" rel="stylesheet">
+    <link href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
     <link rel="stylesheet" href="dist/css/social-share-kit.css" type="text/css">    
     <link rel="stylesheet" href="style.css" />
+    
     
   </head>
  
@@ -22,9 +24,9 @@
   <body>
     <div class="container all-font">
       <nav class="navbar navbar-expand-sm bg-light">
-        <span class="navbar-brand mb-0 h1 all-font">Marika Könönen</span>
+        <span class="navbar-brand mb-0 h1 all-font" id="up">Marika Könönen</span>
         <button class="navbar-toggler na" type="button" data-toggle="collapse" data-target="#myNavbar" aria-controls="myNavbar" aria-expanded="false" aria-label="Toggle navigation">
-             <span class="navbar-toggler-icon navbar-light"></span>
+             <span class="navbar-toggler-icon"></span>
   
         </button>
 
@@ -40,21 +42,25 @@
 
     <div class="container border-margin all-font">
       <div class="jumbotron" id="jumbotron-main">
-        <div class="jumbotron" id="jumbotron-about">
+        <div id="div-about">
           <div class="row">
-            <div class="col-sm-7">
-              <h2 id="about">About</h2>
-	      <img src="pictures/Marika-Könönen-mustvalk.jpg" alt="Marika Könönen" class="img-fluid img-thumbnail rounded-circle float-sm-right" id="img-my-picture">
+            <div class="col-sm-12 d-sm-flex justify-content-center">
+              <h2 class="bottom-padding" id="about">About</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12 d-flex justify-content-center bottom-padding">
+	      <img src="pictures/Marika-Könönen-mustvalk.jpg" alt="Marika Könönen" class="img-fluid img-thumbnail rounded-circle " id="img-my-picture">
             </div>
           </div>
           <div class="row text-center">
             <div class="col-sm-4">
              <ul class="list-group text-center">
 	       <li class="list-group-item list-title"><b>GENERAL</b></li>
-               <li class="list-group-item">Mom of three kids</li>
-               <li class="list-group-item">Blogger</li>
-               <li class="list-group-item">Coder</li>
-               <li class="list-group-item">Entrepreneur</li>
+               <li class="list-group-item">Mom of three kids, wife and a dog owner</li>
+               <li class="list-group-item">Blogger - Coder - Entrepreneur</li>
+               <li class="list-group-item">I use only own pictures in my blog or work or social media</li>
+               <li class="list-group-item">Coding is mix of art and math</li>
                <li class="list-group-item">I love outdoor life & nature</li>
                <li class="list-group-item">Believe in yourself & dreams</li>
              </ul>
@@ -64,10 +70,11 @@
                <li class="list-group-item list-title"><b>TECHNICAL</b></li>
                <li class="list-group-item">Bachelor in Software Engineering</li>
 	       <li class="list-group-item">ISTQB-Certified Tester, Foundation Level (CTFL)</li>
-               <li class="list-group-item">Machine Learning, Pattern Recognition</li>
-               <li class="list-group-item">Java Programming I & II</li>
-               <li class="list-group-item">Python Programming</li>
-               <li class="list-group-item">Java RESTful Web Services</li>
+               <li class="list-group-item">Java - Python - C - C++ Programming</li>
+               <li class="list-group-item">UML modelling language</li>
+	       <li class="list-group-item">HTML-CSS-Bootstrap-JavaScript</li>
+               <li class="list-group-item">Machine Learning - Pattern Recognition</li>
+               
              </ul>
            </div>
            <div class="col-sm-4">
@@ -86,35 +93,38 @@
 
        <div class="jumbotron" id="jumbotron-portfolio">
          <div class="row">
-           <div class="col-sm-7">
-             <h2 id="portfolio">Portfolio</h2>
+           <div class="col-sm-12">
+             <h2 class="text-center bottom-padding" id="portfolio">Portfolio</h2>
            </div>
          </div>
-        <div class="row lef-padding">
-            <div class="col-sm-4 text-center img-responsive">
-             <a href="http://www.theseus.fi/bitstream/handle/10024/46866/Kononen_Marika.pdf?sequence=1&isAllowed=y"><img src="pictures/bachelor-thesis.png" class="img-thumbnail" alt="Code for My Life"></a> 
+        <div class="row">
+           <div class="col-sm-6 text-center img-fluid  bottom-padding">
+             <a href="http://koodielamastani.fi/"><img src="pictures/koodielamastani-webpage.jpg" class="img-thumbnail img-same-height" alt="Koodi Elämästäni"></a>
            </div>
-           <div class="col-sm-4 text-center img-responsive">
-             <a href="http://codeformylife.com"><img src="pictures/codeformylife-webpage-pict.jpg" class="img-thumbnail" alt="Code for My Life"></a> 
+           
+           <div class="col-sm-6 text-center img-fluid  bottom-padding">
+             <a href="http://codeformylife.com"><img src="pictures/codeformylife-webpage-pict.jpg" class="img-thumbnail img-same-height" alt="Code for My Life"></a> 
            </div>
-           <div class="col-sm-4 text-center img-responsive">
-             <a href="http://koodielamastani.fi/"><img src="pictures/koodielamastani-webpage.jpg" class="img-thumbnail" alt="Koodi Elämästäni"></a>
+         </div>
 
-           </div>
-           <div class="col-sm-4 text-center img-responsive">
-             <a href="https://codepen.io/MarikaK/live/NyPPPV/"><img src="pictures/codepen-nalle.jpg" class="img-thumbnail" alt="Koodi Elämästäni"></a>
+         <div class="row">
+           <div class="col-sm-6 text-center img-fluid  bottom-padding">
+             <a href="https://codepen.io/MarikaK/live/NyPPPV/"><img src="pictures/codepen-nalle.jpg" class="img-thumbnail img-same-height" alt="Koodi Elämästäni"></a>
           </div>
+           <div class="col-sm-6 text-center img-fluid  bottom-padding">
+             <a href="http://www.theseus.fi/bitstream/handle/10024/46866/Kononen_Marika.pdf?sequence=1&isAllowed=y"><img src="pictures/bachelor-thesis.png" class="img-thumbnail img-same-height" alt="Code for My Life"></a> 
+           </div>
          </div>
 
        </div>
        <div class="jumbotron" id="jumbotron-contact">
          <div class="row">
-           <div class="col-sm-7">
-             <h2 id="contact">Contact</h2>
+           <div class="col-sm-12">
+             <h2 class="text-center bottom-padding" id="contact">Contact</h2>
            </div>
          </div>
          <div class="row">
-           <div class="col-sm-4" id="col-contact">
+           <div class="col-sm-4 bottom-padding" id="col-contact">
              <form action="mailto:marika.kononen@koodielamastani.fi" method="post" enctype="text/plain">
                <div class="form-group">
                  <label for="name">Name</label>
@@ -142,7 +152,7 @@
                <li class="list-group-item">Would you like me and/or my kids to test your application?</li>
                <li class="list-group-item">Do you need help for creating teaching materials or instruction for your products?</li>
                <li class="list-group-item">Would you like me to evaluate or test your product?</li>
-               <li class="list-group-item">Would you like me to arrange a coding workshop for kids, young or adults?</li>
+               <li class="list-group-item">Would you like me to arrange a coding workshop for kids, youth or adults?</li>
                <li class="list-group-item">Didn’t find what you were looking for?</li>
                <li class="list-group-item">Please don’t hesitate to ask if you need something from me!</li>
              </ul>
@@ -151,17 +161,38 @@
 
         </div>
      </div>
-     <div class="row bottom-padding align-items-center">
-       <div class="col-sm-4">
-         <div class="ssk-group ssk-rounded ssk-grayscale">
+     <div class="row bottom-padding">
+       <div class="col-sm-12">
+         <div class="d-sm-flex justify-content-center ssk-group ssk-rounded ssk-grayscale bottom-padding">
            <a href="https://www.instagram.com/codeformylife/" class="ssk ssk-instagram"></a>
            <a href="https://www.facebook.com/codeformylife/" class="ssk ssk-facebook"></a>
            <a href="https://twitter.com/koodiela" class="ssk ssk-twitter"></a>
            <a href="https://www.facebook.com/koodielamastani/" class="ssk ssk-facebook"></a>
          </div>
        </div>
+       <div class="col-sm-12 text-center">
+         <p>Marika Könönen - Finnmotion Oy © 2018. All Rights Reserved.</p>
+       </div>
      </div>
 
    </div>
+   <!-- Return to Top -->
+   <a href="javascript:" id="return-to-top"><i class="icon-chevron-up"></i></a>
+  <script>
+    // ===== Scroll to Top ==== 
+    $(window).scroll(function() {
+      if ($(this).scrollTop() >= 50) {        // If page is scrolled more than 50px
+          $('#return-to-top').fadeIn(200);    // Fade in the arrow
+      } else {
+        $('#return-to-top').fadeOut(200);   // Else fade out the arrow
+      }
+    });
+    $('#return-to-top').click(function() {      // When arrow is clicked
+      $('body,html').animate({
+          scrollTop : 0                       // Scroll to top of body
+     }, 500);
+   });
+  </script>
+
   </body>
 </html>
